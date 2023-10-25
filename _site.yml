@@ -1,0 +1,16 @@
+name: "Huanyu Chen's Personal Website"
+output_dir: "."
+navbar:
+  title: "Home"
+  right:
+    - text: "Resume"
+      href: resume.html
+    - text: "Plotly"
+      href: plotly.html
+    - icon: fa-envelope fa-lg
+      href: mailto:hc3451@cumc.columbia.edu
+    - icon: fa-github fa-lg
+      href: https://github.com/JessicaChenHuanyu
+output:
+  html_document:
+    theme: yeti
