@@ -1,0 +1,62 @@
+---
+title: "Huanyu Chen's Personal Website"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: yeti
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+My name is Huanyu Chen and I am currently pursuing a Master of Science degree in biostatistics at Columbia University. Please find below my educational and professional background. Feel free to contact me through the provided information.
+
+# Education
+
+**Columbia University**, Mailman School of Public Health
+
+*M.S. in Biostatistics*
+
+-   Related Coursework: Survival Analysis, Data Science, Biostatistics
+    Method
+
+**University of Rochester**
+
+*B.S. in Pure Mathematics; B.A. in Statistics; and B.A. in Economics*
+
+-   David T. Kearns Scholar
+
+-   Teaching Assistant: Fall 2022 in Statistics Dept. & Spring 2021 in
+    Economics Dept.
+
+-   Related Coursework: Intro to Statistical Software SAS, Sampling
+    Techniques
+
+# Professional Experience
+
+**Yunji Sharing Technology Co., Ltd**
+
+*Assistant Consultant (Full-Time Intern)*
+
+A leading company of membership E-business in China; NASDAQ code: YJ.
+
+-   Analyzed data of customers using R to identify more effective ways
+    of marketing and contributed to sales of over 200,000 products and
+    earned over 5,000,000 RMB during summer 2021.
+
+-   Processed identity data of over 2000 people in Excel by using
+    functions including v-lookup and PivotTable.
+
+**Beijing Hopu Youxue Education Technology Co., Ltd.**
+
+*Part-Time Instructor*
+
+-   Provide online courses to over 200 students in probability,
+    mathematical statistics, and GRE math.
+
+# Contact Information
+
+-   [Github](https://github.com/JessicaChenHuanyu)
+-   [Email](mailto:hc3451@cumc.columbia.edu)
+-   [LinkedIn](https://www.linkedin.com/in/huanyu-chen-5785151a1/)
