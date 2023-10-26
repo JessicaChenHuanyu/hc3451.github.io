@@ -1,13 +1,64 @@
 ---
-title: "Plotly"
+title: "Flexdash Board"
 output: 
-  html_document:
-    toc: true
-    toc_float: true
-    theme: yeti
-editor_options: 
-  markdown: 
-    wrap: 72
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
 ---
 
-# Flexdashboard
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+data(instacart)
+instacart |>
+  filter(department %in% c("beverages", "dairy eggs")) |>
+  count(aisle) |> 
+  mutate(aisle = fct_reorder(aisle, n)) |> 
+  plot_ly(x = ~aisle, y = ~n, color = ~aisle, type = "bar", colors = "viridis") |>
+  layout(title = "Density Distribution of Aisles (Beverages and Dairy Eggs)",
+       xaxis = list(title = "Aisle Name"),
+       yaxis = list(title = "Density")
+       )
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+instacart |>
+  filter(department == "snacks") |>
+  mutate(aisle = fct_reorder(aisle, order_hour_of_day)) |> 
+  plot_ly(y = ~order_hour_of_day, color = ~aisle, type = "box", colors = "viridis") |>
+  layout(title = "Order Hour Boxplot by Aisle (Snacks)",
+         xaxis = list(title = "Aisle Name"),
+         yaxis = list(title = "Order Hour of Day")
+  )
+```
+
+### Chart C
+
+```{r}
+result <- instacart |>
+  filter(department %in% c("meat seafood", "deli", "produce", "frozen", "canned goods")) |>
+  group_by(department, days_since_prior_order) |>
+  summarize(mean_add_to_cart_order = mean(add_to_cart_order, na.rm = TRUE))
+
+result |>
+  plot_ly(x = ~days_since_prior_order, y = ~mean_add_to_cart_order, type = "scatter", mode
+          = "lines", color = ~ department) |>
+  layout(title = "Mean Add to Cart for Days Since Prior Order",
+         xaxis = list(title = "Days Since Prior Order"),
+         yaxis = list(title = "Mean Add to Cart Order"))
+```
