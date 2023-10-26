@@ -10,10 +10,10 @@ editor_options:
     wrap: 72
 ---
 
-My name is Huanyu Chen and I am currently pursuing a Master of Science degree in Biostatistics at Columbia University.
+My name is Huanyu Chen and I am currently pursuing a Master of Science degree in Biostatistics at Columbia University. This website contains my answers to P8105 Homework 4.
 
 # Problem 1
 [Resume](resume.html)
 
 # Problem 2
-[Flexdashboard](plotly.html)
+[Flexdash Board](plotly.html)
