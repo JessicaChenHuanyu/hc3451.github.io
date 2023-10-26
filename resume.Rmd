@@ -31,7 +31,6 @@ editor_options:
 -   Related Coursework: Intro to Statistical Software SAS, Sampling
     Techniques
 
-
 # Professional Experience
 
 **Yunji Sharing Technology Co., Ltd**
@@ -54,6 +53,45 @@ A leading company of membership E-business in China; NASDAQ code: YJ.
 -   Provide online courses to over 200 students in probability,
     mathematical statistics, and GRE math.
 
+# RESEARCH
+
+**Big Data for Health Equity**
+
+*Undergraduate Researcher*, Advisor: Prof. Thu Nguyen - University of
+Maryland
+
+-   Collected more than 100,000 data via CrowdTangle on national liberal
+    and conservative news media posts from 2015 to 2022; filtered and
+    cleaned data based on keywords related to race and health.
+
+-   Participated in a retrospective cohort study utilized R in
+    investigating the area-level racial bias of racism and its
+    association with mental and physical health outcomes.
+
+**STEM For All:** Natural Language Processing and Reinforcement Learning
+
+*Undergraduate Researcher*, Advisor: Prof. Alex Iosevich - University of
+Rochester
+
+[link](https://people.math.rochester.edu/faculty/iosevich/projects2022.html)
+
+-   Developed a mechanism mainly utilizing support vector machine
+    methods to quickly identify the academic department of a university
+    page and the news outlet of a front-page story, showcasing
+    interdisciplinary application of reinforcement learning techniques.
+
+**Summer Institute in Computational Social Science**
+
+*Undergraduate Researcher*, Advisor: Prof. Cantay Caliskan - University
+of Rochester
+
+[link](https://sicss.io/2022/rochester/)
+
+-   Crawled more than 130,000 users from Bēhance; analyzed uploaders and
+    estimated recommended algorithms; conducted network analysis using
+    Cytoscape and performed data grouping using Python.
+
+-   Final project paper achieved first place in the assessment.
 
 # Contact Information
 
